@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class=" flex h-14 w-full justify-between items-center px-4 md:px-4">
+
+        <div class="text-2xl text-red-600 font-bold">ABCoding</div>
+
+        <ul class="md:flex hidden">
+            <li class="mx-5 cursor-pointer hover:bg-red-600 hover:text-white text-lg rounded-lg p-2"><a
+                    href="#">Home</a></li>
+            <li class="mx-5 cursor-pointer hover:bg-red-600 hover:text-white text-lg rounded-lg p-2"><a
+                    href="#">Courses</a></li>
+            <li class="mx-5 cursor-pointer hover:bg-red-600 hover:text-white text-lg rounded-lg p-2"><a
+                    href="#">Gallery</a></li>
+            <li class="mx-5 cursor-pointer hover:bg-red-600 hover:text-white text-lg rounded-lg p-2"><a
+                    href="#">About</a></li>
+            <li class="mx-5 cursor-pointer hover:bg-red-600 hover:text-white text-lg rounded-lg p-2"><a
+                    href="#">Contact</a></li>
+        </ul>
+
+        <div class="hidden md:block px-2 py-2 cursor-pointer bg-red-600 font-bold text-white text-lg rounded-lg p-2">
+            Login</div>
+
+        <div class="md:hidden">
+            <a href="#" class="text-4xl">&#8801;</a>
+        </div>
+    </nav>
+
+    <header>
+        <img src="web_development.jpg" alt="tailwindcss" class="w-full h-[800px] hidden md:block">
+        <img src="web_design.jpg" alt="tailwindcss" class="w-full h-[800px]  md:hidden">
+    </header>
+
+    <div class="bg-red-600 font-bold md:bg-slate-700 text-white text-xl text-center p-4">About this ABCoding IT
+        Institute</div>
+
+    <div class="max-w-[1280px] mx-auto flex md:flex-row flex-col p-[30px]">
+
+        <div class="basis-[40%]">
+            <img src="class-2.JPG" alt="tailwindcss" class="w-full mt-2">
+        </div>
+
+        <div class="basis-[60%] px-14">
+            <h2 class="text-2xl pb-2">ABCoding IT Institute</h2>
+            <p class="py-2">ABCoding IT Institute is a reputed training institute in Surat for web design & development,
+                mobile app design & development, ui / ux design & All types of IT and Design Courses with full-fledged,
+                result-oriented training experience</p>
+            <p class="py-2"> We stepped in the market with the goal to help students, working professionals and other
+                interested candidates get that dream job or open that desired freelance business in some of the most
+                popular Computer / IT fields</p>
+            <p class="py-2">Our aim is to ease the hiring process for businesses and organizations by providing
+                work-ready professionals who can contribute greatly to their success</p>
+            <p class="py-2"> Since then, we have worked hard to achieve this goal and dedicated our time and resources
+                to train students extensively.</p>
+        </div>
+    </div>
+
+    <div class="bg-red-600 font-bold md:bg-slate-700 text-white text-xl text-center p-4">Courses Details </div>
+
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5  p-[30px]">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden">
+                <img src="full-stack-development.jpg" alt="tailwindcss" class="hover:scale-110 duration-1000 ml-6">
+            </div>
+            <h3 class="py-2 text-2xl">full-stack-development</h3>
+            <h4 class="py-1 bg-red-600 text-white font-bold">₹ 1,00,000</h4>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden">
+                <img src="front-end-development.jpg" alt="tailwindcss" class="hover:scale-110 duration-1000 ml-6">
+            </div>
+            <h3 class="py-2 text-2xl">front-end-development</h3>
+            <h4 class="py-1 bg-red-600 text-white font-bold">₹ 82,000</h4>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden">
+                <img src="back-end-development.jpg" alt="tailwindcss" class="hover:scale-110 duration-1000 ml-6">
+            </div>
+            <h3 class="py-2 text-2xl">back-end-development</h3>
+            <h4 class="py-1 bg-red-600 text-white font-bold">₹ 75,000</h4>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden">
+                <img src="graphic-design.jpg" alt="tailwindcss" class="hover:scale-110 duration-1000 ml-6">
+            </div>
+            <h3 class="py-2 text-2xl">graphic-design</h3>
+            <h4 class="py-1 bg-red-600 text-white font-bold">₹ 65,000</h4>
+        </div>
+    </div>
+
+    <div class="bg-red-600 font-bold md:bg-slate-700 text-white text-xl text-center p-4">CONTACT US</div>
+
+    <div class="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 py-5">
+        <div class=" group shadow-lg p-3 text-center hover:bg-blue-400 hover:text-white duration-1000">
+            <i
+                class="fa fa-address-book text-center group-hover:text-white hover:bg-blue-500 duration-1000 animate-bounce"></i>
+            <h3 class="text-2xl py-2">address-book</h3>
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, magnam. Error nam
+                quisquam voluptates fugiat, exercitationem autem, repellat impedit quae non eum ex recusandae sapiente
+                provident perferendis quis perspiciatis quasi facilis harum? At, quis sed qui unde adipisci molestias
+                dolores.</p>
+        </div>
+        <div class=" group shadow-lg p-3 text-center hover:bg-blue-400 hover:text-white duration-1000">
+            <i
+                class="fa fa fa-phone text-center group-hover:text-white hover:bg-blue-500 duration-1000 animate-bounce"></i>
+            <h3 class="text-2xl py-2">phone</h3>
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, magnam. Error nam
+                quisquam voluptates fugiat, exercitationem autem, repellat impedit quae non eum ex recusandae sapiente
+                provident perferendis quis perspiciatis quasi facilis harum? At, quis sed qui unde adipisci molestias
+                dolores.</p>
+        </div>
+        <div class=" group shadow-lg p-3 text-center hover:bg-blue-400 hover:text-white duration-1000">
+            <i
+                class="fa fa fa-envelope text-center group-hover:text-white hover:bg-blue-500 duration-1000 animate-bounce"></i>
+            <h3 class="text-2xl py-2">envelope</h3>
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, magnam. Error nam
+                quisquam voluptates fugiat, exercitationem autem, repellat impedit quae non eum ex recusandae sapiente
+                provident perferendis quis perspiciatis quasi facilis harum? At, quis sed qui unde adipisci molestias
+                dolores.</p>
+        </div>
+        <div class=" group shadow-lg p-3 text-center hover:bg-blue-400 hover:text-white duration-1000">
+            <i
+                class="fa fa fa-code text-center group-hover:text-white hover:bg-blue-500 duration-1000 animate-bounce"></i>
+            <h3 class="text-2xl py-2">code</h3>
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, magnam. Error nam
+                quisquam voluptates fugiat, exercitationem autem, repellat impedit quae non eum ex recusandae sapiente
+                provident perferendis quis perspiciatis quasi facilis harum? At, quis sed qui unde adipisci molestias
+                dolores.</p>
+        </div>
+    </div>
+
+    <div class="max-w-[1280px] mx-auto my-10">
+        <div>
+            <h4 class="text-red-500 text-2xl py-2 text-center">Our Courses</h4>
+            <h1 class="text-blue-500 text-4xl py-2 text-center">Courses Details </h1>
+        </div>
+
+        <div class="flex justify-between mt-10 gap-4">
+            <div class="bg-gray-500 rounded-lg hover:shadow-2xl hover:scale-110 duration-1000 cursor-pointer">
+                <img src="back-end-development.jpg" alt="tailwindcss" >
+                <div class="flex ml-5 mt-5">
+                    <img src="back-end-development.jpg" alt="tailwindcss" width="100">
+                    <p class=" text-red-900 text-sm ml-3 hover:text-blue-900">back-end-development</p>
+                </div>
+                    <h1 class="ml-5 mt-2 text-orange-700 hover:text-green-900 text-xl cursor-pointer">Lorem ipsum dolor sit amet.</h1>
+                    <div class="flex justify-evenly py-2">
+                        <h1 class="text-yellow-500">Lorem, ipsum dolor.</h1>
+                        <button class="bg-yellow-500 p-2  rounded-lg hover:bg-black hover:text-white">Click</button>
+                    </div>
+                    <div class="text-center mt-2">
+                        <h2 class="bg-black text-white p-2">Lorem ipsum dolor sit.</h2>
+                    </div>
+            </div>
+            <div class="bg-gray-500 rounded-lg hover:shadow-2xl hover:scale-110 duration-1000 cursor-pointer">
+                <img src="front-end-development.jpg" alt="tailwindcss" >
+                <div class="flex ml-5 mt-5">
+                    <img src="front-end-development.jpg" alt="tailwindcss" width="100">
+                    <p class=" text-red-900 text-sm ml-3 hover:text-blue-900">front-end-development</p>
+                </div>
+                    <h1 class="ml-5 mt-2 text-orange-700 hover:text-green-900 text-xl cursor-pointer">Lorem ipsum dolor sit amet.</h1>
+                    <div class="flex justify-evenly py-2">
+                        <h1 class="text-yellow-500">Lorem, ipsum dolor.</h1>
+                        <button class="bg-yellow-500 p-2  rounded-lg hover:bg-black hover:text-white">Click</button>
+                    </div>
+                    <div class="text-center mt-2">
+                        <h2 class="bg-black text-white p-2">Lorem ipsum dolor sit.</h2>
+                    </div>
+            </div>
+            <div class="bg-gray-500 rounded-lg hover:shadow-2xl hover:scale-110 duration-1000 cursor-pointer">
+                <img src="full-stack-development.jpg" alt="tailwindcss" >
+                <div class="flex ml-5 mt-5">
+                    <img src="full-stack-development.jpg" alt="tailwindcss" width="100">
+                    <p class=" text-red-900 text-sm ml-3 hover:text-blue-900">full-stack-development</p>
+                </div>
+                    <h1 class="ml-5 mt-2 text-orange-700 hover:text-green-900 text-xl cursor-pointer">Lorem ipsum dolor sit amet.</h1>
+                    <div class="flex justify-evenly py-2">
+                        <h1 class="text-yellow-500">Lorem, ipsum dolor.</h1>
+                        <button class="bg-yellow-500 p-2  rounded-lg hover:bg-black hover:text-white">Click</button>
+                    </div>
+                    <div class="text-center mt-2">
+                        <h2 class="bg-black text-white p-2">Lorem ipsum dolor sit.</h2>
+                    </div>
+            </div>
+            <div class="bg-gray-500 rounded-lg hover:shadow-2xl hover:scale-110 duration-1000 cursor-pointer">
+                <img src="graphic-design.jpg" alt="tailwindcss" >
+                <div class="flex ml-5 mt-5">
+                    <img src="graphic-design.jpg" alt="tailwindcss" width="100">
+                    <p class=" text-red-900 text-sm ml-3 hover:text-blue-900">graphic-design</p>
+                </div>
+                    <h1 class="ml-5 mt-2 text-orange-700 hover:text-green-900 text-xl cursor-pointer">Lorem ipsum dolor sit amet.</h1>
+                    <div class="flex justify-evenly py-2">
+                        <h1 class="text-yellow-500">Lorem, ipsum dolor.</h1>
+                        <button class="bg-yellow-500 p-2  rounded-lg hover:bg-black hover:text-white">Click</button>
+                    </div>
+                    <div class="text-center mt-2">
+                        <h2 class="bg-black text-white p-2">Lorem ipsum dolor sit.</h2>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
